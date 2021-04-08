@@ -27,88 +27,88 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="69dp"
-        android:layout_height="80dp"
-        android:onClick="playSound7"
+        android:layout_width="86dp"
+        android:layout_height="91dp"
+        android:onClick="playSound5"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.383" />
+        app:layout_constraintVertical_bias="0.354" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="58dp"
-        android:layout_height="76dp"
-        android:onClick="playSound2"
+        android:layout_width="100dp"
+        android:layout_height="81dp"
+        android:onClick="playSound7"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintHorizontal_bias="0.254"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.461" />
+        app:layout_constraintVertical_bias="0.455" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="103dp"
-        android:layout_height="112dp"
+        android:layout_width="151dp"
+        android:layout_height="111dp"
         android:onClick="playSound3"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542" />
+        app:layout_constraintVertical_bias="0.54" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="78dp"
-        android:layout_height="133dp"
+        android:layout_width="95dp"
+        android:layout_height="127dp"
         android:onClick="playSound4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.554" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="75dp"
-        android:layout_height="78dp"
-        android:onClick="playSound5"
+        android:layout_width="74dp"
+        android:layout_height="112dp"
+        android:onClick="playSound6"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintHorizontal_bias="0.673"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
+        app:layout_constraintVertical_bias="0.366" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="93dp"
-        android:layout_height="78dp"
-        android:onClick="playSound6"
+        android:layout_width="120dp"
+        android:layout_height="68dp"
+        android:onClick="playSound2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303" />
+        app:layout_constraintVertical_bias="0.301" />
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="70dp"
-        android:layout_height="57dp"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:onClick="playSound"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.375" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -172,20 +172,20 @@
             <Button
                 android:id="@+id/D_snare_drum"
                 style="@style/Buttons_Numbers"
-                android:text="Hi-Hat"
+                android:text="Plate"
                 android:onClick="playSound2"/>
 
             <Button
                 android:id="@+id/D_big_drum"
                 style="@style/Buttons_Numbers"
-                android:text="Hi-Hat"
-                android:onClick="playSound3"/>
+                android:text="Tom-Tom"
+                android:onClick="playSound5"/>
 
             <Button
                 android:id="@+id/D_floor_tom_tom"
                 style="@style/Buttons_Numbers"
-                android:text="Hi-Hat"
-                android:onClick="playSound4"/>
+                android:text="Tom-Tom"
+                android:onClick="playSound6"/>
 
 
         </LinearLayout>
@@ -199,25 +199,25 @@
             <Button
                 android:id="@+id/D_tom_tom1"
                 style="@style/Buttons_Numbers"
-                android:text="Hi-Hat"
-                android:onClick="playSound5"/>
+                android:text="Floor Tom-Tom"
+                android:onClick="playSound3"/>
 
             <Button
                 android:id="@+id/D_tom_tom_2"
                 style="@style/Buttons_Numbers"
-                android:text="Hi-Hat"
-                android:onClick="playSound6"/>
+                android:text="Big drum"
+                android:onClick="playSound4"/>
 
             <Button
                 android:id="@+id/D_plate"
                 style="@style/Buttons_Numbers"
-                android:text="Hi-Hat"
+                android:text="Snare drum"
                 android:onClick="playSound7"/>
 
             <Button
                 android:id="@+id/D_stick"
                 style="@style/Buttons_Numbers"
-                android:text="Hi-Hat"
+                android:text="Stick"
                 android:onClick="playSound8"/>
 
 <!--            <ImageView-->
